@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "NesaraSpice"
+    }
+  },
+  "defaultProject": "NesaraSpice",
+  "cli": {
+    "analytics": "db8cba6e-e2d9-4052-9a74-0f84d55a5db2"
+  }
 }

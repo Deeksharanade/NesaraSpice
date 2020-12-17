@@ -1,0 +1,220 @@
+
+
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+
+<table style="width: 100%;">
+    <tr><td><p style="text-align: center;">Cheap air Tickets Online International Flights to India, Cheap International Flight Deals | SpiceJet Airlines</p></td>
+    </tr>
+</table>
+
+<div ><img src="assets/img/logo.png" width="100%" alt="logo_not_found">
+    <br>
+</div>
+    <br>  
+    <div > <p style="float: left;"> SpiceJet Ltd., 319, Udyog Vihar, Phase IV, Gurgoan - 122016 Haryana, India <br>E-Mail:custrelations@spicejet.com   </p> 
+        <p style="float: right;">Reservations Helpline No: <br>For Economy Class: +91 987 180 3333, +91 965 400 3333 </p></div>
+       <br> <br> 
+
+       <div >
+        <table class="travel" style="border: 1px solid black; text-align: center;  width: 100%; height: 100%;">
+            <th  class="travel" colspan="3" style="padding-top: 7px; padding-bottom: 7px; font-family: Arial, Helvetica, sans-serif; color: white; text-align: left; background-color:rgb(255, 51, 51);">
+                 &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; PASSENGER INFORMATION
+            </th>
+               <br><br>
+                   <tbody class="travel">
+                    
+                       <!-- <tr  *ngFor="let product of invoice.products; let i=index">
+                                    <td  scope="row">
+                                        <br>
+                                        <p style="float: left; ;">&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; {{this.i+1}} &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; </p>
+                                        
+                                           <input  style="text-align: center; float: left; height: 50px; width: 400px;" type="text" #box (keyup.enter)="onEnter(box.value)">
+                                    </td> 
+                                <br>  
+                        </tr> -->
+<br>
+                    <div class="row travel">
+                        <br>
+                       
+<div class="col-4 travel" *ngFor="let product of invoice.products; let i=index" >
+    <p style="float: left; ;">&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; {{this.i+1}} &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; </p>
+<div> <input class="travel" style="     outline: none;
+    outline-style: none;
+    box-shadow: none;
+    border-color: transparent; text-align: center; float: left; height: 50px; width: 400px;" type="text" #box (keyup.enter)="onEnter(box.value)">  
+     </div>
+<br>
+</div>
+
+
+
+
+<!-- <input #box (keyup)="onKey(box.value)">
+<p>{{valu}}</p> -->
+
+                    </div>
+                        <br>
+<div>
+<button  type="button"class="btn btn-secondary" (click)="addProduct()">Add new name</button>
+</div>
+                            
+                   <br> 
+                </tbody>
+                    
+        </table>
+    
+    </div> 
+    <br>
+
+    <div >
+        <table class="travel" style="border: 1px solid black; text-align: center;  border-collapse: collapse;  width: 100%; height: 100%;">
+            <table class="travel" style="border: 1px solid white; text-align: center;  border-collapse: collapse;  width: 100%; height: 100%;">
+            <th  colspan="7" style="padding-top: 7px; padding-bottom: 7px; font-family: Arial, Helvetica, sans-serif; color: white; text-align: left; background-color:rgb(255, 51, 51);"> 
+                &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; TRAVEL INFORMATION</th>
+        <tr class="travel" >
+            <td  class="travel"><b>TRAVEL DATE </b></td>
+            <td class="travel"><b>FLIGHT NO.</b></td>
+            <td class="travel"><b>FROM/TERMINAL</b></td>
+            <td class="travel"><b>TO/TERMINAL</b></td>
+            <td class="travel"><b>DEP.TIME</b></td>
+            <td class="travel"><b>ARR.TIME</b></td>
+            <td class="travel"><b>AIRLINE</b></td>
+        </tr>
+
+
+        <tr  class="travel" *ngFor="let ticket of another.tickets; let i=index ">
+            <td  class="travel">   <input   style="  height: 50px;   " type="text"> </td>
+            <td  class="travel"><input   style="text-align: center; height: 50px; " type="text" #b (keyup.enter)="onEnter2(b.value)"> </td> 
+            <td  class="travel">  <input class="width1"   style="text-align: center;  height: 50px; " type="text" #b1 (keyup.enter)="onEnter3(b1.value)"></td>
+             <td class="travel" > <input class="width1"  style="text-align: center; height: 50px; " type="text" #b2 (keyup.enter)="onEnter4(b2.value)"></td>
+         <td class="travel"> <input class="width1" style="  height: 50px;  width: 140px; " type="text"></td>
+            <td class="travel"> <input  class="width1" style="  height: 50px; width: 140px;" type="text"></td>
+            <td class="travel"> <input  class="width1" style="   height: 50px;  " type="text"></td> 
+        </tr>
+   <br>
+
+   
+
+</table>
+<br>
+<div style="float:right;">
+    <button    type="button"class="btn btn-secondary" (click)="addTravel()">Add new </button>  
+    </div>
+<br> 
+<br>
+</table>  
+</div>
+   
+    <br>
+    <table class="travel" style=" width: 100%; border: 1px solid black;" >
+    <tr class="travel">
+    <td class="travel"><b> &nbsp;  &nbsp;&nbsp;Confirmation Number(PNR):</b>&nbsp;&nbsp; <input style="  height: 50px;   text-align: center; " type="text"></td>
+    <td class="travel"><b>  &nbsp;  &nbsp;&nbsp;Booking Date:</b> &nbsp;&nbsp; <input style="  height: 50px; text-align: center;"  type="text" name="" id=""></td>
+    <td class="travel"><b>  &nbsp;  &nbsp;&nbsp;Status:</b> &nbsp;&nbsp; <input style="  height: 50px;  text-align: center;"  type="text" name="" id=""></td>
+    </tr>
+    </table>
+    <br>
+    <table style=" width: 100%; border: 1px solid black;">
+    <tr> <td style="color: red;"> Power banks/portable mobilr chargers are allowed ONLY in Hand-Baggage and <b>NOT in Checked-in Baggage.</b> <br>
+    Checked-in Baggage with these items will <b>NOT BE LOADED</b> on the flights due to security reasons.</td></tr>
+    </table>
+    <br>
+    <table class="travel" style=" width: 100%; border: 1px solid black;">
+       
+     <th  colspan="5" style="padding-top: 7px; padding-bottom: 7px; font-family: Arial, Helvetica, sans-serif; color: white; text-align: left; background-color:rgb(255, 51, 51);"> 
+        &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; PASSENGER DETAILS</th>
+
+    <tr class="travel">
+        <td  class="travel width1"><b>S.NO</b></td>
+        <td  class="travel width1"><b>PASSENGER NAME</b></td>
+        <td  class="travel width1"><b>FLIGHT</b></td>
+        <td  class="travel width1"><b>FARE TYPE</b></td>
+        <td  class="travel width1"><b>ADDITIONAL SERVICES PURCHASED</b></td>
+    </tr>
+
+       
+            <tr *ngFor="let detail of invoice.details; let i=index let j=index let k=index">
+               <td class="travel"><p>{{this.i+1}}</p></td>
+                        <td class="travel">{{this.demo[i]}}</td>
+                        <!-- <td><p>{{box.value}}</p></td> -->
+                        <td class="travel wid" >
+                            {{this.flightno[0]}} &nbsp; {{this.from[0]}} &nbsp; {{this.to[0]}} <br> 
+                             {{this.flightno[1]}} &nbsp; {{this.from[1]}} &nbsp; {{this.to[1]}} <br> 
+                            {{this.flightno[2]}} &nbsp; {{this.from[2]}} &nbsp; {{this.to[2]}} <br> 
+                            {{this.flightno[3]}} &nbsp; {{this.from[3]}} &nbsp; {{this.to[3]}}
+                        <br> {{this.flightno[4]}} &nbsp; {{this.from[4]}} &nbsp; {{this.to[4]}} 
+                       <!-- <br> {{this.flight[5]}} &nbsp; {{this.from[5]}} &nbsp; {{this.to[5]}}  -->
+                        </td>
+                        <td  class="width1 travel">
+                            <textarea id="ADDITIONAL" name="ADDITIONAL" rows="5" cols="40"></textarea>
+                           </td>
+                            
+                        <!-- <td class="travel" ><input style=" width: 200px; height: 130px;" type="text" name="" id=""></td> -->
+                        <!-- <td class="travel" ><input  style="   width: 400px; height: 130px;" type="text" name="" id=""></td> -->
+                       <td  class="width1 travel">
+                        <textarea id="ADDITIONAL" name="ADDITIONAL" rows="5" cols="80"></textarea>
+                       </td>
+                        
+            </tr>
+
+       </table>
+    <br>
+    <img src="assets/img/benifits.png" style="width: 100%;" alt="">
+    <br><br>
+    <table class="travel" style="width: 100%;">
+        <th  colspan="3" style="padding-top: 7px; padding-bottom: 7px; font-family: Arial, Helvetica, sans-serif; color: white; text-align: left; background-color:rgb(255, 51, 51);"> &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; PAYMENT INFORMATION</th> 
+        <tr>
+            <td ><b>Fare + Airline fuel charge + CUTE Fee</b> 
+                 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                &nbsp; &nbsp;
+                 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;
+                
+               <input name="fee" style="text-align: center;height: 50px; " [(ngModel)]="fee"  id="val1" type="number" > </td> 
+            <td id="pfee"><b>Passenger Service Fee   </b> &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                 &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp;
+                  &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                   &nbsp; &nbsp; &nbsp; &nbsp;<input style="text-align: center;  height: 50px; "  [(ngModel)]="psf" type="number"></td>
+                   <td>  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;</td>
+                </tr>
+
+            <tr>
+                 <td   id="Afee"> <b> Aviation Security Fees</b>
+                     &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                     &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;
+                      &nbsp; &nbsp; &nbsp;<input style="text-align: center;  height: 50px; " name="asf"  [(ngModel)]="asf" type="number"  id=""></td> 
+                 <td id="ufee"><b>User Development Fee</b> &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                     &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;
+                      &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;
+                       &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<input  style="text-align: center;  height: 50px;" name="udf" [(ngModel)]="udf" type="number"> </td>
+                       <td>  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;</td>
+                    </tr>
+
+   <tr>
+       <td id="sgst"><b>&nbsp; &nbsp;&nbsp; &nbsp; &nbsp;SGST</b>  &nbsp; &nbsp; &nbsp; &nbsp; <span  style=" height: 50px; width: 125px;  text-align: center;"> {{fee*(0.025)}} INR</span></td>
+        <td><b>CGST</b>   &nbsp; &nbsp;&nbsp; &nbsp;
+            <span  style=" height: 50px; width: 125px;  text-align: center;"> {{fee*(0.025)}} INR</span></td>
+            <td>  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;</td>
+    </tr>
+
+   <tr>
+       <td id="ugst"><b>&nbsp; &nbsp;&nbsp; &nbsp; &nbsp;UGST</b>&nbsp; &nbsp;&nbsp; 
+        <input name="ugst" 
+        [(ngModel)]="ugst" type="number"  style=" height: 50px; width: 125px;  text-align: center;" #box3 (keyup.enter)="onEnter1()"   ></td>
+        <td>  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;</td>
+        <td>  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;</td>
+    </tr>  
+   <tr class="travel">
+       <td class="travel"><b>Payment Type : </b> <b>Online</b></td>
+        <td class="travel"><b>Amount Paid :</b><b> {{total | number: '1.0-0'}} </b></td>
+         <td class="travel"> <b>Total Price :</b> <b> {{total | number: '1.0-0'}}</b></td>
+        </tr>
+        <!-- {{(fee)+(ugst)+(udf)+(2*(fee*(0.025)))+(psf)}} -->
+        </table>
+        <br>
+ <img src="assets/img/last.png" style="width: 100%;" alt="">
+        
+
+<br><br>
+<div style="text-align: center;">
+<!-- <input type="button" onClick="window.print()" class="btn btn-info" value="Print"/> -->
+</div>

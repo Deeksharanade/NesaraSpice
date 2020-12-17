@@ -1,0 +1,19 @@
+.travel {
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-size: 30px;
+  
+ 
+  }
+.width1{
+    /* width:125px; */
+    text-align: center;
+    font-size: 30px;
+    
+}
+.wid{
+    font-size: 30px;
+}
+p,td{
+    font-size: 20px;
+}
